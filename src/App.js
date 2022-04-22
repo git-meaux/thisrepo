@@ -8,13 +8,15 @@ import NavBar from "./pages/components/Navbar";
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
-      <NavBar />
-      <Routes>
-        <Route path="/discover" element={<DiscoverPage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/" element={<HomePage />} />
-      </Routes>
+      <header className="App-header">
+        <p>something</p>
+        <NavBar />
+        <Routes>
+          <Route path="/discover" element={<DiscoverPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </header>
     </div>
   );
 }
